@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyAuu5HWHWm6Ta4L9pmxe4NunxWFZIlW6wQ"; // ⚠️ WARNING: Never expose API keys in client-side code.
+const API_KEY = "################################"; // ⚠️ WARNING: Never expose API keys in client-side code.
                                                                     // Move this to a backend server or environment variable before deploying.
 
 const recommendedVideos = [
