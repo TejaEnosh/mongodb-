@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Search App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-shell">
+        <header class="top-bar">
+            <div class="brand-block">
+                <div class="brand-logo">YT</div>
+                <div>
+                    <h1>YouTube Search</h1>
+                    <p>Search videos using the YouTube Data API</p>
+                </div>
+            </div>
+
+            <form id="searchForm" class="search-box">
+                <input type="text" id="searchInput" placeholder="Search videos..." autocomplete="off">
+                <button type="submit">Search</button>
+            </form>
+        </header>
+
+        <main class="content">
+            <div class="main-column">
+                <section class="card-block">
+                    <div class="panel-heading">
+                        <h2>Recommended for you</h2>
+                        <p>Explore a few curated videos to start with before searching.</p>
+                    </div>
+                    <section id="recommended" class="results"></section>
+                </section>
+
+                <div id="message" class="message"></div>
+
+                <section id="results" class="results"></section>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
